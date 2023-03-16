@@ -68,6 +68,7 @@ Note: 不同实例要配置不同的代理
 ```
 
 # 案例
+![image](./images/20230316113657.gif)
 ```bash
 E:\WorkSpaces\NodeProjects\docker-whistle>docker build -t  kamalyes/whistle:v1.0.1 .
 [+] Building 33.9s (10/10) FINISHED
@@ -111,3 +112,7 @@ Welcome to Node.js v18.15.0.
 Type ".help" for more information.
 >
 ```
+
+# 致谢
+- whistle仓库地址：https://github.com/avwo/whistle
+- whistle说明文档： http://wproxy.org/whistle
