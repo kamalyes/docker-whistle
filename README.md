@@ -5,7 +5,7 @@
 1. 离线Dockerfile部署
 ```bash
 docker build -t  kamalyes/whistle:v1.0.1 .
-docker run --name whistle -p 8900:8900 -d kamalyes/whistle:v1.0.1
+docker run --name whistle -p 8899:8899 -d kamalyes/whistle:v1.0.1
 docker exec -it whistle sh whistle-init.sh # 安装插件并初始化8899端口
 ```
 
