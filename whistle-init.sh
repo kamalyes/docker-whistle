@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-for index in script inspect vase sni-callback proxyauth set-req-len show-frames autopac; do
+for index in script inspect vase sni-callback proxyauth set-req-len show-frames autopac modify; do
   echo -e "开始安装$index插件..."
   w2 install whistle.$index
   echo -e "$index安装完成..."
